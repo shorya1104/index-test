@@ -1,0 +1,76 @@
+@media screen and (max-width: 1200px) {
+    .right_parent_main {
+        transform: translate(0, -50%);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .right_parent_main {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left_parent_main {
+        border: none;
+    }
+
+    .bottom_link_main {
+        padding: 6px 8px;
+    }
+
+    .bottom_link_main a {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+
+    .footer_main_div {
+        height: 50px;
+    }
+
+    .header_buttons a {
+        font-size: 11px;
+    }
+
+    .user_profile_img img {
+        right: -5px;
+    }
+
+    .cancel_popup_reason_popup .modal-body {
+        padding: 10px 5px;
+    }
+
+    .profile_other_details_card {
+        flex-direction: column;
+
+    }
+
+    .other_details_card_main {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .room_code_div_main {
+        flex-direction: column;
+    }
+
+    .room_code_div_main h2 {
+        margin-bottom: 20px;
+    }
+
+    .user_profile_img img {
+        max-width: 70px;
+    }
+
+    .username_edit_input {
+        width: 75%;
+    }
+
+    .username_edit_icon {
+        left: 65%;
+    }
+
+    .user_other_details_main {
+        margin-top: 80px;
+    }
+}
